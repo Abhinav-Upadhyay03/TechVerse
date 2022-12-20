@@ -1,0 +1,161 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #100F0F;
+}
+h1{
+  color: white;
+  /* text-align: left; */
+}
+p {
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 2% 10% 15%;
+
+}
+.logo{
+  width: 35%;
+
+}
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  margin: 18px;
+
+}
+.ms-4 {
+  margin-left: 0 !important;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.slide{
+  /* background-color: #395B64; */
+}
+
+
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat-Light";
+  text-align: center;
+  color: white;
+}
+.nav-link:hover{
+  font-size: 1.2rem;
+}
+.big-heading{
+  font-size: 6rem;
+  padding: 0;
+  padding-bottom: 1rem;
+  margin-left: 32px;
+  color: #A5C9CA;
+
+}
+.sub-title{
+  padding-left: 4px;
+  padding-top: 10px;
+  font-size: 1.2rem;
+ color: #E7F6F2;
+
+}
+.title-image{
+
+  background-color: #100F0F;
+float: right;
+padding-right: 57px;
+  width: 100%;
+}
+.item-image{
+  width: 100%;
+  height: 600px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+.carousel-item{
+  width: 100%;
+  height: 20%;
+}
+.product-name{
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%)
+}
+.text {
+  background-color: black;
+  color: #E2DCC8;
+border-radius: 12px;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.inner-text{
+  margin-bottom: 3px;
+  font-size: 1.3rem;
+}
+.container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container:hover .item-image {
+  opacity: 0.3;
+}
+.container:hover .product-name {
+  opacity: 1;
+}
+.buy-button{
+  background-color: #A5C9CA;
+  border: 0;
+  border-radius: 10px;
+}
+.see-more{
+  text-decoration: none;
+  color: #00D7FF;
+  font-size: 1.2rem;
+}
+.see-more:hover{
+  font-size: 1.4rem;
+  color: #C1EFFF;
+}
+#display-product{
+  text-align: center;
+}
+#Contact {
+  text-align: center;
+  background-color: #E7F6F2;
+  padding: 50px;
+}
+
+
+.plugin {
+  padding: 7px;
+  margin-bottom: 15px;
+  color: black;
+}
+@media (max-width: 1255px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: relative;
+  float: none;
+padding: 0;
+    width: auto;
+  }
+  .logo-head{
+    text-align: center;
+  }
+  .logo{
+    padding-left: 100px;
+    width: 50%;
+  }
+}
